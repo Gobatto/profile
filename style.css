@@ -1,0 +1,75 @@
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oxygen', sans-serif;
+}
+
+body {
+  background-image: url("https://www.palmeiras.com.br/wp-content/uploads/2019/08/allianz-parque-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  color: #575F7D;
+  font-family: 'Space Mono', monospace;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  color: #0a3530;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: 'Space Mono', monospace;
+  text-decoration: none;
+  color: #0c3702;
+  font-weight: 600;
+  font-size: 20px;
+}
+a:hover {
+  color: black;
+}
+.card {
+  margin: 20px auto;
+  width: 500px;
+  background-color: rgb(131, 156, 216);
+  text-align: center;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 0 0 1em rgb(0, 0, 0);
+}
+.container img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.follow a {
+  color: rgba(6, 76, 58, 0.849);
+}
+
+.follow a:hover {
+  color: rgb(6, 66, 57);
+}
+
+a {
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgba(6, 43, 22, 0.651);
+  font-size: 18px;
+}
+
+p {
+  font-family: 'Space Mono', monospace;
+  text-decoration: none;
+  color: #0c3702;
+  font-weight: 600;
+  font-size: 20px;
+}
+i {
+  font-size: 40px;
+}
